@@ -1,5 +1,5 @@
 #!/bin/bash
     
-git clone $REPO_URL Repo
+git+https://github.com/yadhukrishanyadhukrishan/Telegram
 cd Repo
 python3 -m Telegram
