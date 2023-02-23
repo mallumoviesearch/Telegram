@@ -15,7 +15,7 @@ class Config(object):
     ASSISTANT_ID = getenv("ASSISTANT_ID", "")
     STRING_SESSION = getenv("STRING_SESSION", "") #telethon
     OWNER_USERNAME = getenv("OWNER_USERNAME", "")
-    DB_URI = getenv("DATABASE_URL", "")
+    DB_URI = getenv("DATABASE_URL", "postgres://bbaqvyvy:OoVdbd1ACTcYRmZKktfqLxmzY_jhmWL5@suleiman.db.elephantsql.com/bbaqvyvy")
     DB_URI = DB_URI.replace("postgres", "postgresql")
     MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001509525202")
     GBAN_LOGS = getenv("GBAN_LOGS", "-1001509525202")
