@@ -20,7 +20,7 @@ class Config(object):
     MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001895648978")
     GBAN_LOGS = getenv("GBAN_LOGS", "-1001895648978")
     SYS_ADMIN = getenv("SYS_ADMIN", "1963316264")
-    DEV_USERS = getenv("DEV_USERS", "1963316264")
+    DEV_USERS = getenv("DEV_USERS", "19633162764")
     LOAD = getenv("LOAD")
     WEBHOOK = False
     SPB_MODE = True
