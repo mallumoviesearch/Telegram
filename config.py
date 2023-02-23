@@ -10,9 +10,9 @@ class Config(object):
     log = True
     APP_ID = getenv("API_ID", "6435225")
     API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
-    TOKEN = getenv("TOKEN", "")
-    OWNER_ID = getenv("OWNER_ID", "")
-    ASSISTANT_ID = getenv("ASSISTANT_ID", "")
+    TOKEN = getenv("TOKEN", "6206483292:AAEC5ql3ww3Ve18UaTrDVC7a_HyqWlJCIf8")
+    OWNER_ID = getenv("OWNER_ID", "2119484425")
+    ASSISTANT_ID = getenv("ASSISTANT_ID", "2119484425")
     STRING_SESSION = getenv("STRING_SESSION", "") #telethon
     OWNER_USERNAME = getenv("OWNER_USERNAME", "")
     DB_URI = getenv("DATABASE_URL", "postgres://bbaqvyvy:OoVdbd1ACTcYRmZKktfqLxmzY_jhmWL5@suleiman.db.elephantsql.com/bbaqvyvy")
