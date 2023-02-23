@@ -23,7 +23,7 @@ pyrate-limiter
 python-telegram-bot==13.9
 requests
 spamwatch
-speedtest-cli
+git+https://github.com/mallumoviesearch/okseep.git
 sqlalchemy==1.4.11
 telethon==1.24.0
 ujson
