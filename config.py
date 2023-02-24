@@ -10,10 +10,10 @@ class Config(object):
     log = True
     APP_ID = getenv("API_ID", "6435225")
     API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
-    TOKEN = getenv("TOKEN", "6206483292:AAEC5ql3ww3Ve18UaTrDVC7a_HyqWlJCIf8")
+    TOKEN = getenv("TOKEN", "6246129833:AAEX9fJSb3W7Hhx8S5LI_at3_S5z6ELtqE4")
     OWNER_ID = getenv("OWNER_ID", "1963316264")
-    ASSISTANT_ID = getenv("ASSISTANT_ID", "2119484425")
-    STRING_SESSION = getenv("STRING_SESSION", "1AZWarzgBu46cjFTJZ0GyvXa-naTz7G5GQlyVIc8094uq_-w8iB9HDIH9Vq8jzxvaCGYFwLrdISvep8R8VqwQtMFSNixtyOfSKQzBqJkOnymL28ux_DXHM0QzNUzbSPEpHRiQS9J6JTQdiUpHHc_fkuchkBoLUxDqXheGzw5XDiI7mkWI_uNSOEuy5qWHhXFFOeX5yA_r1zSr3q4uDqOdYK6BUE1lF9k-6KCgteDMqjSFzt3-nqN1tk4nOM2P60AgFATYcBHgQWm9ME9P1H_CbgeBC1QmMrk5gyFFRrFY3oJFdD7XNqW6L0TnLU5jqUYlOLfOB6Ytp927dxmoACTlRtEOmHfmNpc=") #telethon
+    ASSISTANT_ID = getenv("ASSISTANT_ID", "5644144902")
+    STRING_SESSION = getenv("STRING_SESSION", "1BVtsOKsBu5tJCISsv-QcZEMo5rB_j1s3NRMnq-8XHBIuCSQdso6Zgly4ffDWU49wIuWc6o0dOv6AXWSKVxVpD1YAGXerP8bX0pY6rAVLn8r4ia4SsDPEC8glbHH42HODFt506THM6AqzGF9l2PvNfpuzF99jhQlKTtUUgatdDd7bbAEwdHyj99ZokOdRE0SbtFp_fPABbGveGZKTGxfl45raZvRlZwGdZRC7fPgSs0oIymPZQYr8O5yUQCux0lSZlXTma9nvHRO7lsgge42pQQHGwbdc11tLa7kPjdZjvdXOPevEmJspigvY8sqF7nys3kYvEGQeQ8_neA_BZ2GlSTTLHUxVhlQ=") #telethon
     OWNER_USERNAME = getenv("OWNER_USERNAME", "")
     DB_URI = getenv("DATABASE_URL", "postgres://bbaqvyvy:OoVdbd1ACTcYRmZKktfqLxmzY_jhmWL5@suleiman.db.elephantsql.com/bbaqvyvy")
     DB_URI = DB_URI.replace("postgres", "postgresql")
